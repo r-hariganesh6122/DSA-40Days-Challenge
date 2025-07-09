@@ -1,45 +1,36 @@
-# 📅 Day 8 of 40 – Stack & Linked List (NeetCode Roadmap)
+## 👨‍💻 Day 8 of 40 – Stack & Linked List (NeetCode Roadmap)
 
-Today I wrapped up the stack topic (skipped Generate Parentheses due to its BFS/backtracking nature) and moved into linked lists. Learned some deep techniques and cleared some long-standing confusions.
+Today’s journey took me through some tricky Stack problems and wrapped up with a classic Linked List problem.
 
----
+### 🔹 Problems Solved:
 
-## ✅ Problems Solved
-
-- ✔️ Car Fleet
-- ✔️ Largest Rectangle in Histogram
-- ✔️ Linked List Cycle
-
----
-
-## 🧠 What I Learned
-
-### 🔹 Car Fleet
-  ➤ Paired each car's position with time = (target - position) / speed  
-  ➤ Sorted using `sort(rbegin(), rend())` — learned about reverse iterators  
-  ➤ Faced type conversion issue with float and int — must cast or assign to float after division  
-  ➤ Tried a greedy approach, but then used a stack-based one: push times and count fleets where time is non-decreasing  
-  ➤ Final insight: return the stack size for fleet count
-
-### 🔹 Largest Rectangle in Histogram
-  ➤ Couldn't find the approach initially, studied the solution  
-  ➤ Learned the **monotonic increasing stack** technique  
-  ➤ Push indices until a smaller bar is found  
-  ➤ Pop and compute area using height × width, where width is `(i - st.top() - 1)`  
-  ➤ Key takeaway: why popping first is necessary — left boundaries can be far away
-
-### 🔹 Linked List Cycle
-  ➤ Found the problem description confusing due to the hidden input structure  
-  ➤ Learned how Floyd's Cycle Detection (tortoise and hare) algorithm works  
-  ➤ Simple once understood: two pointers, one fast and one slow — if they meet, there's a cycle
+✔️ Car Fleet  
+✔️ Largest Rectangle in Histogram  
+✔️ Linked List Cycle  
+❌ Generate Parentheses (Skipped – requires backtracking)
 
 ---
 
-## ❌ Skipped Problem
+### 📘 Key Takeaways
 
-- ✖️ Generate Parentheses — involves backtracking/BFS, will revisit later
+#### 🚗 Car Fleet
+- Used a vector of pairs to associate position and time.
+- Learned how to sort in descending order using `sort(rbegin(), rend())`.
+- Understood how to use a stack to count non-decreasing fleet arrival times.
+- Realized the need for **explicit float conversion** to avoid integer division issues.
+
+#### 🧱 Largest Rectangle in Histogram
+- Learned the **monotonic stack** approach to compute maximum area.
+- Tricky part: grasping why popping early is necessary to find the correct left boundary.
+- Width calculation based on the index of previous smaller height was eye-opening.
+
+#### 🔁 Linked List Cycle
+- Implemented **Floyd’s Cycle Detection** algorithm.
+- Faced confusion around the structure and behavior of linked lists at first.
+- Understood the logic of using two pointers (slow and fast) to detect cycles efficiently.
 
 ---
 
-## ✅ Commit Message
+Every problem gave me a small but meaningful lesson — from float precision to pointer tricks.
 
+#Day8 #DSAChallenge #NeetCode #CPlusPlus #Stack #LinkedList #CodeEveryday #100DaysOfCode
