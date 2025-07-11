@@ -6,9 +6,9 @@ Today I explored one of the most versatile and foundational techniques in proble
 
 ## ✅ Problems Solved
 
-- [x] Best Time to Buy and Sell Stock
-- [x] Longest Substring Without Repeating Characters
-- [x] Minimum Window Substring (Hard)
+- ✅ [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- ✅ [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- ✅ [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
 ---
 
