@@ -6,11 +6,11 @@ Today I explored classic Linked List problems — from basic operations to using
 
 ## ✅ Problems Solved:
 
-- ✅ Reverse Linked List
-- ✅ Reorder List
-- ✅ Remove Nth Node From End of List
-- ✅ Copy List with Random Pointer
-- ❌ Merge K Sorted Lists (Skipped – need to study Heap/Priority Queue first)
+- ✅ [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- ✅ [Reorder List](https://leetcode.com/problems/reorder-list/)
+- ✅ [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- ✅ [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+- ❌ [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) ✖ _Skipped (requires Heap/Priority Queue)_
 
 ---
 
