@@ -4,10 +4,10 @@ Today’s journey took me through some tricky Stack problems and wrapped up with
 
 ### 🔹 Problems Solved:
 
-✔️ Car Fleet  
-✔️ Largest Rectangle in Histogram  
-✔️ Linked List Cycle  
-❌ Generate Parentheses (Skipped – requires backtracking)
+- ✅ [Car Fleet](https://leetcode.com/problems/car-fleet/)
+- ✅ [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- ✅ [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) 
+- ❌ [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) ✖ _Skipped (requires backtracking)_
 
 ---
 
