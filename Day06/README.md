@@ -5,9 +5,9 @@ Today’s focus was on mastering the Sliding Window technique. I worked through 
 ---
 
 ## ✅ Problems Solved:
-- ✔️ Permutation in String  
-- ✔️ Longest Repeating Character Replacement  
-- ✔️ Sliding Window Maximum (Hard)
+- ✅ [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+- ✅ [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- ✅ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
 ---
 
